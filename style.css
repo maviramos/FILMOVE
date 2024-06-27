@@ -92,7 +92,7 @@ nav ul li a {
 
 .movie a {
     display: inline-block;
-    background-color: #8BC34A; /* Verde Claro */
+    background-color: #080808; /* Verde Claro */
     color: #fff;
     padding: 10px 20px;
     text-align: center;
@@ -102,7 +102,7 @@ nav ul li a {
 }
 
 .movie a:hover {
-    background-color: #689F38; /* Verde mais escuro */
+    background-color: #080808; /* Verde mais escuro */
 }
 
 /* Estilos do rodapé */

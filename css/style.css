@@ -16,12 +16,12 @@ body {
 
 h1 {
   font-family: 'Lato', sans-serif;
-  color: #c4004f;
+  color: #000000;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
-  color: #ad00ff;
+  color: #000000;
 }
 
 p {
@@ -39,7 +39,7 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: #c4004f;
+  color: #000000;
 }
 
 .conteudo-flex{
@@ -177,14 +177,14 @@ button {
   border: none;
   font-family: inherit;
   padding: 10px;
-  background-color: #c4004f;
+  background-color: #4b4b4b;
 }
 
 .sublogin-conteudo {
   display: none;
   position: absolute;
   width: 15%;
-  background-color: #c4004f;
+  background-color:  #4b4b4b
   font-size: 1vmax;
   text-align: center;
   z-index: 1;
@@ -193,7 +193,7 @@ button {
 .sublogin-conteudo button {
   font-size: 1vmax;
   background: #fff;
-  color: #c4004f;
+  color: #4b4b4b;
   cursor: pointer;
   outline: 0;
   margin: 0.5vmax;
@@ -247,8 +247,8 @@ button {
   margin-bottom: 4%;
   text-align: left;
   background: rgba(0, 0, 0, 0.30);
-  border-top: 2px solid #c4004f;
-  border-bottom: 2px solid #c4004f;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
   font-size: 1vmax;
 }
 
@@ -318,7 +318,7 @@ button {
   width: 100%;
   height: 2.5vmax;
   font-size: 1vmax;
-  background-color: #c4004f;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -477,14 +477,14 @@ button {
 }
 
 .form-contato button {
-  background: #c4004f;
+  background: #000000;
   color: #fff;
 }
 
 .form-contato input:focus,
 .form-contato select:focus,
 .form-contato textarea:focus {
-  outline-color: #c4004f;
+  outline-color: #000000;
 }
 
 .rede-social {

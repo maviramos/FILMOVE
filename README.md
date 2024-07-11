@@ -1,7 +1,7 @@
 ## Resumo:
 Nem sempre é fácil escolher um filme ou uma série para assistir entre tantas opções disponíveis nos serviços de streaming. Para o alívio dos indecisos, o FILMOVE ajuda a encontrar conteúdos nas plataformas de acordo com os gostos cinéfilos. As ferramentas permitem buscar produções utilizando diversos filtros, como ano de lançamento, gênero, humor e muito mais. O site FILMOVE ainda ajuda casais a decidirem qual filme assistir juntos, já que ele cria uma lista com títulos que agradem as duas pessoas
 
-## 🛠 Tecnologias
+## 🛠 Tecnologias:
 
 Ferramentas que foram usadas no desenvolvimento do projeto:
 

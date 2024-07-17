@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmesflix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #000;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .movie {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .movie img:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Media queries para tornar o site responsivo */
+        @media screen and (max-width: 992px) {
+            .movie {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .movie {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>FILMOVE</h1>
+    </div>
+    <div class="container">
+        <div class="movie">
+            <img src="movie1.jpg" alt="Movie 1">
+            <h3>Movie 1</h3>
+        </div>
+        <div class="movie">
+            <img src="movie2.jpg" alt="Movie 2">
+            <h3>Movie 2</h3>
+        </div>
+        <div class="movie">
+            <img src="movie3.jpg" alt="Movie 3">
+            <h3>Movie 3</h3>
+        </div>
+        <!-- Adicione mais filmes conforme necessário -->
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Filmesflix - Todos os direitos reservados</p>
+        <p><a href="login.html">Login</a> | <a href="registro.html">Registrar</a></p>
+    </div>
+</body>
+</html>

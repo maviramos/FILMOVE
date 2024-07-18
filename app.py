@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-# Lista de filmes (simulando um banco de dados)
 filmes = [
     {"id": 1, "titulo": "Filme 1", "ano": 2020, "diretor": "Diretor 1"},
     {"id": 2, "titulo": "Filme 2", "ano": 2019, "diretor": "Diretor 2"},
@@ -30,3 +29,4 @@ def pesquisar():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    

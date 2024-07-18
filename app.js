@@ -23,10 +23,10 @@ app.use('/api/filmes', filmeRoutes);
 app.use('/api/series', serieRoutes);
 app.use('/api/usuarios', usuarioRoutes);
 
-// Servir arquivos estáticos
+
 app.use(express.static('public'));
 
-// Rota para servir o index.html
+
 app.get('*', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });

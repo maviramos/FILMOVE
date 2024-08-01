@@ -14,6 +14,29 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Estilos adicionais para a página de apresentação dos integrantes */
+    .integrantes {
+      padding: 20px;
+    }
+
+    .integrante {
+      background-color: #8f8b8b;
+      color: #000000;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .integrante h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .integrante p {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -40,6 +63,7 @@
           <li><a href="filmes.html">Filmes</a></li>
           <li><a href="categorias.html">Categorias</a></li>
           <li><a href="contato.html">Contato</a></li>
+          <li><a href="./sobrenos.html">Sobre nós</a></li> <!-- Link para a página "Sobre nós" -->
         </ul>
       </nav>
       <!-- fim do menu de navegação -->
@@ -48,15 +72,15 @@
       <div class="topo-pesquisa">
         <div class="conteudo-pesquisa">
           <form class="conteudo-flex" method="post">
-          <fieldset class="bar-pesquisa">
-            <input type="text" placeholder="Pesquisar um filme ou série..." alt="Digite aqui um filme ou série para pesquisar">
-          </fieldset>
-          <fieldset class="btn-pesquisar conteudo-flex">
-            <button type="button" title="Pesquisar">
-              <span class="fas fa-search"></span>
-            </button>
-          </fieldset>
-        </form>
+            <fieldset class="bar-pesquisa">
+              <input type="text" placeholder="Pesquisar um filme ou série..." alt="Digite aqui um filme ou série para pesquisar">
+            </fieldset>
+            <fieldset class="btn-pesquisar conteudo-flex">
+              <button type="button" title="Pesquisar">
+                <span class="fas fa-search"></span>
+              </button>
+            </fieldset>
+          </form>
         </div>
       </div>
       <!-- fim da barra de pesquisa -->
@@ -73,7 +97,6 @@
         <div class="sublogin-conteudo">
           <button type="button" title="Entrar">Entrar</span></button>
           <p>ou</p>
-          
         </div>
       </div>
       <!-- fim área de login -->
@@ -94,9 +117,8 @@
 
     <div class="elementos conteudo-flex">
 
+      <!-- início formulário -->
       <div class="form-mapa conteudo-flex">
-
-        <!-- inínicio formulário -->
         <div class="formulario">
           <form class="form-contato" method="post">
 
@@ -105,7 +127,7 @@
                 <span class="far fa-user"></span>
               </div>
               <fieldset>
-                  <input type="text" id="nome" placeholder="Nome" class="user" required autofocus>
+                <input type="text" id="nome" placeholder="Nome" class="user" required autofocus>
               </fieldset>
             </div>
 
@@ -114,7 +136,7 @@
                 <span class="far fa-envelope"></span>
               </div>
               <fieldset>
-                  <input type="email" id="email" placeholder="Email" class="email" required>
+                <input type="email" id="email" placeholder="Email" class="email" required>
               </fieldset>
             </div>
 
@@ -158,68 +180,58 @@
         </div>
         <!-- fim formulário -->
 
-        
-
-      
-
-      <!--início redes sociais -->
-      <div class="rede-social conteudo-flex">
-        <div>
-          <a href="#"><span class="fab fa-facebook rede-social" alt="ícone do facebook"></span></a>
-        </div>
-        <div>
-          <a href="#"><span class="fab fa-instagram rede-social" alt="ícone do instagram"></span></a>
-        </div>
-        <div>
-          <a href="#"><span class="fab fa-twitter rede-social" alt="ícone do twitter"></span></a>
-        </div>
-      
       </div>
-      <!-- fim redes sociais -->
 
+      <!-- início área de apresentação dos integrantes -->
+      <div class="integrantes">
 
+        <!-- Integrante 1 -->
+        <div class="integrante">
+          <h2>Vitória Maria</h2>
+          <p>Front-end Developer</p>
+          <p>vitoriamaria@filmov.com</p>
+        </div>
+
+        <!-- Integrante 2 -->
+        <div class="integrante">
+          <h2>David Marques</h2>
+          <p>Função no projeto</p>
+          <p>davidmarques@filmov.com</p>
+        </div>
+
+        <!-- Integrante 3 -->
+        <div class="integrante">
+          <h2>Natália Birkner</h2>
+          <p>Função no projeto</p>
+          <p>nataliabirkner@filmov.com</p>
+        </div>
+
+        <!-- Integrante 4 -->
+        <div class="integrante">
+          <h2>Guilherme Santiago</h2>
+          <p>Função no projeto</p>
+          <p>guilhermesantiago@filmov.com</p>
+        </div>
+
+        <!-- Integrante 5 -->
+        <div class="integrante">
+          <h2>Heitor Otto</h2>
+          <p>Função no projeto</p>
+          <p>heitorotto@filmov.com</p>
+        </div>
+
+      </div>
+      <!-- fim área de apresentação dos integrantes -->
 
     </div>
     <!-- fim elemento -->
 
   </div>
-  <!-- fim conteúdo principal -->
+  <!-- fim contéudo principal -->
 
-  <!-- início rodape -->
+  <!-- início rodapé -->
   <footer>
     <div class="site-map conteudo-flex">
       <div class="site-map-conteudo">
         <ul>
-          <li><a href="../index.html">Sobre nós</a></li>
-          <li><a href="#">Perguntas frequentes</a></li>
-      
-        </ul>
-      </div>
-      <div class="site-map-conteudo">
-        <ul>
-          <li><a href="#">Política de Privacidade</a></li>
-          <li><a href="#">Termo de Uso</a></li>
-    
-        </ul>
-      </div>
-      <div class="site-map-conteudo">
-        <ul>
-        
-          <li><a href="contato.html">Contato</a></li>
-          <li><a href="#">Centro de Ajuda</a></li>
-
-        </ul>
-      </div>
-    </div>
-    <div>
-      <img src="../image/filmov.png" alt="Imagem logotipo da filmov" title="Imagem logotipo da filmov">
-    </div>
-    <div>
-      <p>Fotografias sob licença gratuita - fonte: <a href="http://www.pexels.com" target="_blank">pexels.com</a></p>
-    </div>
-  </footer>
-  <!-- fim rodape -->
-
-</body>
-
-</html>
+          <li

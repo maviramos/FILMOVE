@@ -560,3 +560,17 @@ footer p {
   color: #FFFFFF;
   padding-bottom: 20px;
 }
+.integrantes {
+  display: flex;
+  justify-content: space-between; /* Espaço entre os integrantes */
+}
+
+.integrante {
+  width: 25%; /* Aumentei a largura para ocupar mais espaço na tela */
+  height: 150px; /* Aumentei a altura */
+  padding: 18px; /* Aumentei o padding para dar mais espaçamento interno */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  text-align: center; /* Centraliza o texto dentro da caixa */
+  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total da caixa */
+}
